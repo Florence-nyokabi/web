@@ -1,0 +1,49 @@
+body{
+    margin: 0% 10%;
+    background-color:azure;
+}
+.search-clothes{
+    margin:0% 40%;
+}
+.search-clothes input{
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.navigation-bar  li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 10px 12px;
+    font-size: 150%;
+}
+.navigation-bar button{
+    background-color: rgb(7, 7, 70);
+    color:white;
+    margin-left: 0% 30%;
+    padding: 10px 12px;
+    border-radius: 9px;
+}
+.welcome{
+    margin:0% 30%;
+}
+.welcome h4{
+    margin:0% 24%;
+}
+.welcome button{
+    padding: 14px;
+    margin: 5% 25%;
+    border-radius: 8px;
+}
+.slide-images{
+    behavior: scroll;
+    direction: left;
+}
+img{
+    width: 50%;
+    /* height: 5px; */
+    border-radius: 9px;
+}
